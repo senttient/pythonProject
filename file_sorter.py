@@ -1,7 +1,5 @@
 import os
 import shutil
-# home = os.getcwd()
-# print(home)
 
 
 target = os.path.expanduser('~/Downloads/')
