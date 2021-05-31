@@ -39,6 +39,8 @@ try:
         for x in files:
             if x.endswith('.pdf'):
                 shutil.copy(os.path.join(target, x), books)
+            elif x.endswith('.epub'):
+                shutil.copy(os.path.join(target,x), books)
 except:
     pass
 
